@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option csharp_namespace = "TestProject";
+
+package message;
+
+service Message {
+  rpc SendMessage (MessageContent) returns (MessageResponse);
+  rpc SendBigMessage (MessageBigContent) returns (MessageBigResponse);
+}
+
+message MessageContent {
+  string header = 1;
+  string body = 2;
+}
+
+message MessageResponse {
+  string response = 1;
+}
+
+message MessageBigContent {
+  string prop1 = 1;
+  string prop2 = 2;
+  string prop3 = 3;
+  string prop4 = 4;
+  string prop5 = 5;
+  string prop6 = 6;
+  string prop7 = 7;
+  string prop8 = 8;
+  string prop9 = 9;
+  string prop10 = 10;
+  string prop11 = 11;
+  string prop12 = 12;
+  string prop13 = 13;
+  string prop14 = 14;
+  string prop15 = 15;
+  string prop16 = 16;
+  string prop17 = 17;
+  string prop18 = 18;
+  string prop19 = 19;
+  string prop20 = 20;
+}
+
+message MessageBigResponse {
+  string response1 = 1;
+  string response2 = 2;
+  string response3 = 3;
+  string response4 = 4;
+  string response5 = 5;
+  string response6 = 6;
+  string response7 = 7;
+  string response8 = 8;
+  string response9 = 9;
+  string response10 = 10;
+  string response11 = 11;
+  string response12 = 12;
+  string response13 = 13;
+  string response14 = 14;
+  string response15 = 15;
+  string response16 = 16;
+  string response17 = 17;
+  string response18 = 18;
+  string response19 = 19;
+  string response20 = 20;
+}
