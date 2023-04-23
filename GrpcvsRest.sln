@@ -15,7 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{821F2A4F-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{57C985D6-7803-4629-81CC-039B1D32A43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F42D261C-0086-4456-9701-83F7C2D6831E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{F42D261C-0086-4456-9701-83F7C2D6831E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JmeterPlans", "JmeterPlans", "{97AEEA40-33DB-43FA-8868-73906FF87379}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Projects\apache-jmeter-5.5\GrpcTestPlan.jmx = E:\Projects\apache-jmeter-5.5\GrpcTestPlan.jmx
+		E:\Projects\apache-jmeter-5.5\RestTestPlan.jmx = E:\Projects\apache-jmeter-5.5\RestTestPlan.jmx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,7 @@ Global
 		{6747FA08-FB7E-46EA-BFF7-1BEECA77DA8C} = {58F65CCF-3505-470D-B616-8D47C477BB1D}
 		{17B138F2-C73E-4848-BE43-E0F5B3EA9BAE} = {147DBE18-DFED-4592-A5B0-8BCB4E5AC383}
 		{57C985D6-7803-4629-81CC-039B1D32A43A} = {821F2A4F-CE0A-4923-8CF5-8FEECD17E6A5}
+		{97AEEA40-33DB-43FA-8868-73906FF87379} = {821F2A4F-CE0A-4923-8CF5-8FEECD17E6A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3520FBE-5F19-4822-BFF9-727F1C586B70}
