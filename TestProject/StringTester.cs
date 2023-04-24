@@ -4,6 +4,8 @@ using System.Text;
 namespace TestProject
 {
     [MemoryDiagnoser]
+    [HtmlExporter] //for html outputs
+    [RPlotExporter] //For R plot outputs
     public class StringTester
     {
         private const int StringCount = 10;
